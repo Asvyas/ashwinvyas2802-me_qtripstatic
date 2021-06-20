@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>QTrip</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
   <!-- TODO: MODULE_LAYOUT -->
   <!-- 1. Create a <link> to the first stylesheet needed for Bootstrap -->
@@ -18,19 +19,119 @@
   <!-- 1. Use appropriate css classes on nav element. -->
   <!-- 2. Add child elements as required. -->
 
-   <nav></nav> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">QTrip</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+       <ul class="navbar-nav d-flex justify-content-end w-100">
+          <li class="nav-item">
+             <a class="nav-link" href="/">Home </a>
+          </li>
+          <li class="nav-item active">
+             <a class="nav-link" href="/pages/adventures/">Explore</a>
+          </li>
 
+       </ul>
+    </div>
+ </nav>
 
   <!-- TODO: MODULE_LAYOUT -->
   <!-- 1. Use appropriate css classes on the hero image container element. -->
   <!-- 2. Add child elements as required. -->
 
-   <div class="hero-image d-flex"></div> 
+   <div class="container-fluid hero-image ">
+     <div class="row">
+       <div class="col-lg-6 col-6 mx-auto">
+         <h1 class="text-center mt-5">Welcome To QTrip</h1>
+         <p class="text-center">Explore the world with fantastic places to venture around</p>
+          <input type="text" class="form-control" placeholder="Search a city">
+       </div>
+
+     </div>
+   </div> 
 
 
-  <div class="container">
-    <!-- TODO: MODULE_LAYOUT -->
-    <!-- 1. Create the grid like layout as required. -->
+  <div class="container box">
+    <div class="row  my-3">
+     
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/bengaluru.jpg" alt="Bangaluru">
+        <div class="set">
+          <h5 class="text-center">Bengaluru</h5>
+          <p class="text-center">100+ Place</p>
+        </div> 
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/kolkata.jpg" alt="Kolkata">
+        <div class="set">
+          <h5 class="text-center">Kolkata</h5>
+          <p class="text-center">52++ Place</p>
+        </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/goa.jpg" alt="Goa">
+        <div class="set">
+          <h5 class="text-center">Goa</h5>
+          <p class="text-center">160+ Place</p>
+        </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/mumbai.jpg" alt="Mumbai">
+        <div class="set">
+          <h5 class="text-center">mumbai</h5>
+          <p class="text-center">121+ Place</p>
+        </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/singapore.jpg" alt="Singapore">
+        <div class="set">
+          <h5 class="text-center">Singapore</h5>
+          <p class="text-center">89+ Place</p>
+        </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/dubai.jpg" alt="dubai">
+        <div class="set">
+          <h5 class="text-center">Dubai</h5>
+          <p class="text-center">74+ Place</p>
+
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/malaysia.jpg" alt="Malaysia">
+        <div class="set">
+          <h5 class="text-center">Malaysia</h5>
+          <p class="text-center">172+ Place</p>
+        </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 mt-2">
+        <a href="./pages/adventures/index.html">
+        <img src="assets/paris.jpg" alt="Paris">
+        <div class="set">
+          <h5 class="text-center">Paris</h5>
+          <p class="text-center">150+ Place</p>
+
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer>
